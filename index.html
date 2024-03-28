@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3a3c3cb3;
+            color: #333; /* Text color */
+        }
+        header {
+            background-color: #221b16; /* Dark header background */
+            color: #fff; /* White text color */
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 120px;
+            height: auto;
+        }
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Center align navigation items */
+        }
+        header nav ul li {
+            margin: 0 20px;
+        }
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        header nav ul li a:hover {
+            color: #ccc;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .content {
+            background-color: #dbbc7f; /* White content background */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px #545454 ; /* Subtle box shadow */
+            margin-bottom: 20px;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333; /* Heading color */
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #666; /* Text color */
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333; /* Button background color */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #a89169; /* Darker button color on hover */
+        }
+        footer {
+            background-color: #221b16; /* Dark footer background */
+            color: #fff; /* White text color */
+            padding: 0px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://i.imgur.com/JdUaBMi.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sign In / Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>We are a team of professionals dedicated to providing top-notch services to our clients.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="content">
+            <h2>Get Services</h2>
+            <p>Click below to explore our services:</p>
+            <a href="#" class="btn">Buy</a>
+            <a href="#" class="btn">Create</a>
+            <a href="#" class="btn">Claim</a>
+        </div>
+        <div class="content">
+            <h2>Digital Rights</h2>
+            <p>Our digital rights offerings:</p>
+            <img src="https://static.startuptalky.com/2021/12/YouTube-s-New-Copyright-Tool-StartupTalky.jpg" alt="YouTube Rights" style="max-width: 100%;">
+            <img src="https://i.imgur.com/ITVdLjl.jpeg" alt="Music Rights" style="max-width: 100%;">
+            <img src="https://i.imgur.com/rNzVxxp.jpeg" alt="Media Rights" style="max-width: 100%;">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 1cart.org 2024</p>
+    </footer>
+</body>
+</html>
